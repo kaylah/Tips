@@ -29,7 +29,7 @@ A typical `switch` statement looks like this:
   //petType dog
 ```
 
-The `switch` statement takes an input, in the above case the input is `pet`, which is set to `dachshund`. It goes through each case, until it finds a match and hits a `break;`. It's very similar to an `if/else` statement. Here would be the same logic written as an `if/else`:
+The `switch` statement takes an input, in the above case the input is `pet`, which is set to `dachshund`. It goes through each case, until it finds a match and hits a `break;`, providing the output of `dog` in this example. It's very similar to an `if/else` statement. Here would be the same logic written as an `if/else`:
 
 ```
   var pet = 'dachshund';
