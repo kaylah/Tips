@@ -78,8 +78,8 @@ Objects make up the JavaScript language, so chances are you're familiar with the
 
   var petType = pets[pet] || pets['default'];
 
-console.log('petType', petType);
-//petType dog
+  console.log('petType', petType);
+  //petType dog
 ```
 
 Do you find this easier to read? I do. :+1:
@@ -109,8 +109,8 @@ Ok, that's great for when you need a `String`, but what if you need something mo
 
   var petType = (pets[pet] || pets['default'])();
 
-console.log('petType', petType);
-//petType dog
+  console.log('petType', petType);
+  //petType dog
 ```
 
 Granted your `function` logic will most likely be more complex than this simple example, but the structure is the same.
