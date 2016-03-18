@@ -1,6 +1,6 @@
 # Switch to Object Literal
 
-The ol' `switch` statement. Other languages love it, but I'm not a fan of it in JavaScript. I prefer Objects. Objects are more flexible, easier to read and if you're a JavaScript developer, you're already familiar with Objects. Let's look at some simple comparisons.
+The ol' `switch` statement. Other languages love it, but I'm not a fan of it in JavaScript. I prefer Objects. Objects are more flexible, easier to read and if you're a JavaScript developer, you're already familiar with them. Let's look at some simple comparisons.
 
 ## The `switch`
 
