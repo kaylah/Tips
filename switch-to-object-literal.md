@@ -55,7 +55,7 @@ The `switch` statement takes an input, in the above case the input is `pet`, whi
   //petType dog
 ```
 
-Smell something? No, it's not your deodorant failing. It's the code. Anytime you see a large `else if` list, your nose should wrinkle at the putridness. This is prone to bugs and a common code smell. You are much better off using a `switch`.
+Smell something? No, it's not your deodorant failing. It's the code. Anytime you see a large `else if` list, your nose should wrinkle at the putridness. This is prone to bugs and a common [code smell](http://martinfowler.com/bliki/CodeSmell.html). You are much better off using a `switch`.
 
 So why not use a `switch`? You can, but there are things you have to keep in mind when using a `switch`.
 - Order matters - Since a `switch` evaluates top down, the order of your cases matter.
