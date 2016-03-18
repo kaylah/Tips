@@ -82,7 +82,7 @@ Objects make up the JavaScript language, so chances are you're familiar with the
   //petType dog
 ```
 
-Do you find this easier to read? I do. :+1:
+You're using the `pet` variable as the `key` to lookup the value within the `pets` Object. Do you find this easier to read? I do. :+1:
 
 Ok, that's great for when you need a `String`, but what if you need something more complex, like a `function`? You can set it up like this:
 
@@ -113,7 +113,9 @@ Ok, that's great for when you need a `String`, but what if you need something mo
   //petType dog
 ```
 
-Granted your `function` logic will most likely be more complex than this simple example, but the structure is the same.
+You simply need to tack on the parens at the end `()`, to invoke the method. Here I opted to wrap the `OR` statement in parens and add the invoking parens at the end, but you could also do: `pets[pet]() || pets['default']()`.
+
+Of course, in the real-world, your `function` logic will most likely be more complex than this simple example, but the structure is the same.
 
 ## Wrap Up
 
